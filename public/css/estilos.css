@@ -1,25 +1,19 @@
- .menu{
- 	
- }
+
 
  .menu2{   
-    left: 0;
+    
     position: fixed;
-    right: 0;
-    top: 0;
     z-index: 1;
-    height: 80px;
+    height: 120px;
     width: 100%;
-    display: block;
     padding-top: 20px;
    
-
 }
 
 .logo{
 	width: 136px;
-	height: 30px;
-
+	height: 80px;
+    margin-right:  40%;
 	
 }
 
@@ -32,3 +26,24 @@
 .buscar{
 	width: 300px;
 }
+
+
+
+.iconos{
+    color: #efcb4b;
+    font-size: 50px;
+}
+
+.iconos2{
+    color: #9c9c9c;
+    font-size: 50px;
+}
+
+.nav-link{
+    text-align: center;
+}
+.nav-link:hover{
+    background: red;
+    text-align: center;
+}
+
