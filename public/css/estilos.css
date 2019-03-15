@@ -1,0 +1,34 @@
+ .menu{
+ 	
+ }
+
+ .menu2{   
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+   
+
+}
+
+.logo{
+	width: 136px;
+	height: 30px;
+
+	
+}
+
+.navbar{
+	
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.buscar{
+	width: 300px;
+}
