@@ -50,24 +50,24 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item iconos ">
-                    <a class="nav-link" href="#"><i class="fab fa-dropbox "></i><br><p class="letramenu">Productos</p></a></li>
                     <li class="nav-item iconos">
-                    <a class="nav-link" href="#"><i class="fas fa-boxes iconos"></i><br><p class="letramenu">Inventarios</p></a></li>
+                    <a class="nav-link" href="#"><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Productos</p></a></li>
                     <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-cogs"></i><br><p class="letramenu">Operaciones</p></a></li>
+                    <a class="nav-link" href="#"><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Inventarios</p></a></li>
                     <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-building"></i><br><p class="letramenu">Empresa</p></a></li>
+                    <a class="nav-link " href="#"><i class="fas fa-cogs" id="icono"></i><br><p class="letramenu">Operaciones</p></a></li>
                     <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-laptop"></i><br><p class="letramenu">Ver tienda</p></a></li>
+                    <a class="nav-link " href="#"><i class="fas fa-building" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
                     <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-cart-plus"></i><br><p class="letramenu">Pos venta</p></a></li>
+                    <a class="nav-link " href="#"><i class="fas fa-laptop" id="icono"></i><br><p class="letramenu">Ver tienda</p></a></li>
+                    <li class="nav-item iconos">
+                    <a class="nav-link " href="#"><i class="fas fa-cart-plus" id="icono"></i><br><p class="letramenu">Pos venta</p></a></li>
                     
 
                     <div class="drop">
                         <div class="dropdown">
                           <button class="btn btn-default iconos2" type="button" data-toggle="dropdown">
-                            <i class="fa fa-user "></i><p class="letramenu">USUARIO</p>
+                          <i class="fa fa-user "></i>  <!--<p class="letramenu">USUARIO</p>-->
                           </button>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <center><b>Áreas Comerciales</b></center><br>
@@ -95,7 +95,7 @@
     <div class="product">
       <div class="catalogo">
         <div class="container">
-          <h1 class="text-center text-dark">Product</h1>
+          <h1 class="text-left text-dark">Product</h1>
             <p class="text-dark text-center">
               Adipisicing unde eum odio aliquam dolor ad voluptas expedita consequuntur aperiam inventore eaque. Dolorum facilis aut eum a delectus. Fugit velit quas harum quisquam amet provident inventore. Repudiandae repudiandae delectus.<br><br><br><br>
             </p>
