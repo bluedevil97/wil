@@ -122,6 +122,93 @@ nav{
     margin-right: 50px;
     padding-bottom: 50px;
 }
+
+.publicado{
+    margin-top: -36px;
+    margin-left: 100px;
+    font-family: Signika,sans-serif;
+
+    font-weight: bold;
+    color: green;
+}
+.opciones{
+    color: #F9AA0D;
+    border-right: 1px  solid #F9AA0D;
+    border-left: 1px  solid #F9AA0D;
+    margin-left: 5px;
+    font-size: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+   /* padding: 8px;*/
+}
+
+.card-text{
+    color: #F9AA0D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Formateamos el label que servirá de contenedor */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+}
+ 
+/* Ocultamos el checkbox html */
+.switch input {
+  display:none;
+}
+ 
+/* Formateamos la caja del interruptor sobre la cual se deslizará la perilla de control o slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+/* Pintamos la perilla de control o slider usando el selector before */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  top: 2px;
+  background-color: green;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+/* Cambiamos el color de fondo cuando el checkbox esta activado */
+input:checked + .slider {
+  /*background-color: green;*/
+}
+ 
+/* Deslizamos el slider a la derecha cuando el checkbox esta activado */ 
+input:checked + .slider:before {
+  -webkit-transform: translateX(37px);
+  -ms-transform: translateX(37px);
+  transform: translateX(37px);
+  background-color: red;
+}
+ 
+/* Aplicamos efecto de bordes redondeados en slider y en el fondo del slider */
+.slider.round {
+  border-radius: 34px;
+}
+ 
+.slider.round:before {
+  border-radius: 50%;
+}
 /*.nav-link{
     text-align: center;
     padding-top: 10px;
@@ -198,6 +285,9 @@ body{
 }
 nav{
     background: #fff;
+    height: 120px;
+  
+  
 }
 
 .logo{
@@ -209,7 +299,7 @@ nav{
 
 .navbar{
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom:0;
     font-family: Signika,sans-serif;
        
 }
@@ -218,8 +308,8 @@ nav{
     text-transform: uppercase; 
     color:pink;
     text-align: center;
-    padding-top: 12px;
-    padding-bottom:12px; 
+    padding-top: 25px;
+    padding-bottom:0px; 
    /* margin-right:-10px; 
     margin-left:-10px;*/
     width: 125px;
@@ -227,6 +317,7 @@ nav{
    border:1px solid #E1DEDD;
    height: 100%;
    margin-right:  0px;
+
 
     }
 
@@ -311,6 +402,7 @@ nav{
     
     font-size: 30px;
     margin-right: 0px;
+
 }
 
 .colorg{
@@ -343,17 +435,129 @@ nav{
 /*fin buscar*/
 
 /*producto*/
-.product{
-    
-    padding-top: 130px;  
-    padding-bottom: 30px;
-}
+
+
 
 .catalogo{
-    background: #fff;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 50px;
+    background: white;
+   /*margin-left: 100px;
+    margin-right: 100px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    /*padding-left: -100px;
+    padding-right: -100px;*/
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.card{
+
+    width: 470px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border:1px solid #d1d1d1;
+
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.publicado{
+    margin-top: -36px;
+    margin-left: 100px;
+    font-family: Signika,sans-serif;
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+}
+
+.opciones{
+    color: #F9AA0D;
+    border-right: 1px  solid #F9AA0D;
+    border-left: 1px  solid #F9AA0D;
+    margin-left: 5px;
+    font-size: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+   /* padding: 8px;*/
+}
+.card-text{
+    color: #F9AA0D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* Formateamos el label que servirá de contenedor */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+}
+ 
+/* Ocultamos el checkbox html */
+.switch input {
+  display:none;
+}
+ 
+/* Formateamos la caja del interruptor sobre la cual se deslizará la perilla de control o slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+/* Pintamos la perilla de control o slider usando el selector before */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  top: 2px;
+  background-color: green;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+/* Cambiamos el color de fondo cuando el checkbox esta activado */
+input:checked + .slider {
+  /*background-color: green;*/
+}
+ 
+/* Deslizamos el slider a la derecha cuando el checkbox esta activado */ 
+input:checked + .slider:before {
+  -webkit-transform: translateX(37px);
+  -ms-transform: translateX(37px);
+  transform: translateX(37px);
+  background-color: red;
+}
+ 
+/* Aplicamos efecto de bordes redondeados en slider y en el fondo del slider */
+.slider.round {
+  border-radius: 34px;
+}
+ 
+.slider.round:before {
+  border-radius: 50%;
 }
 /*fin producto*/
 }

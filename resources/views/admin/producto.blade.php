@@ -93,163 +93,329 @@
 
   <!-- Product -->
     <div class="product">
-      <div class="catalogo">
-        <div class="container">
-          <h1 class="text-left text-dark">Product</h1>
-            <p class="text-dark text-center">
-              Adipisicing unde eum odio aliquam dolor ad voluptas expedita consequuntur aperiam inventore eaque. Dolorum facilis aut eum a delectus. Fugit velit quas harum quisquam amet provident inventore. Repudiandae repudiandae delectus.<br><br><br><br>
-            </p>
+      <div class="catalogo">       
+          <h4 class="text-left text-dark">/Inicio</h4>          
           <div class="row">
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
+            
+                <!--<div class="card-deck">
                   <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Cumpleaños</h5>
-                      
-                    </div>
+                     <div class="contenedor-img ejemplo-1">  
+                             <img class="card-img-top " src="img/imagenes/img1.jpg" alt="Card image cap">   
+                    </div>         
+                </div>
+                <div style="background-color: green;" class="datos"><p>hola</p></div>
+              </div>-->
 
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/cumple.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>         
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
+                      
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
-                  <div class="card">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Matrimonios</h5>
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
                       
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
                     </div>
-
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/matri.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>
-
-               </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Bautizo</h5>
-                      
-                    </div>
-
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/bautizo.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>
-
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
-                  <div class="card">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
                     <div class="card-body">
-                      <h5 class="card-title text-center ">Card title</h5>
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
                       
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
                     </div>
-
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/cumple.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>
-
-                   
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
-                  <div class="card">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Card title</h5>
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
                       
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
                     </div>
-
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/cumple.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>
-
-                   
-                   <!-- 
-                    <div class="card-footer justify-content-center">
-                      <p class="text-muted justify-content-center">Precio: 
-                        <strong>S/. 100.00 </strong></p>
-                      <a href="#" class="btn btn-danger left " >Comprar</a>
-                     </div>
-                    -->
-
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-4 pt-4">
-                <div class="card-deck">
-                  <div class="card">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Card title</h5>
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
                       
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
                     </div>
-
-                    <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top tamaño" src="img/cumple.jpg" alt="Card image cap">
-                           <div class="mascara">  
-                            
-                               <p><strong>Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo
-                               Proveemos servicios y equipos a nivel coorporativo. Puede buscar mas informacion en el enlace de abajo.</strong></p>
-                               <a href="#" class="btn btn-outline-danger btn-lg text-white link">ver catalogo</a>
-                           </div>  
-                      </div>
-
-                   
-                   <!-- 
-                    <div class="card-footer justify-content-center">
-                      <p class="text-muted justify-content-center">Precio: 
-                        <strong>S/. 100.00 </strong></p>
-                      <a href="#" class="btn btn-danger left " >Comprar</a>
-                     </div>
-                    -->
-
+                  </div>
                 </div>
               </div>
-            </div>
-          </div> 
+
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
+                      
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
+                      
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
+                      
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">086JMS4</h5>
+                      <p class="card-text">J Mayita Aguayo/V</p><br>
+                    
+
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Web</p>
+
+                      
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Publicado Dist.</p>
+
+                       <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label><p class="publicado">Destacado</p><br>
+
+                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
+                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+             
+          
+            </div>           
         </div>
       </div>
     </div>

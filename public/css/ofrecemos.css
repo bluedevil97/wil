@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .tamaño{
-	width: 348px;
+	width: 200px;
 	height: 400px;
 }
 .contenedor-img {
@@ -10,11 +10,12 @@ cursor: default;
 float: left;
 height:100%;
 overflow: hidden;
-padding-bottom:0px;
-padding:0px;	
+
+/*padding:0px;	*/
 position: relative;
 text-align: center;
 width: 100%;
+
 }
 .contenedor-img .mascara,.contenedor-img .contenido {
 width: 100%;
@@ -29,8 +30,8 @@ left: 0
 .contenedor-img img {
 display: block;
 position: relative;
-
 }
+
 /*.contenedor-img h2 {
 text-transform: uppercase;
 color: #fff;
