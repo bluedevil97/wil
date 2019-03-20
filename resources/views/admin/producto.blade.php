@@ -106,43 +106,17 @@
                 <div style="background-color: green;" class="datos"><p>hola</p></div>
               </div>-->
 
-              <div class="card mb-3">
-                <div class="row no-gutters">
-                  <div class="col-md-5">
-                    <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-7">
-                    <div class="card-body">
-                      <h5 class="card-title">086JMS4</h5>
-                      <p class="card-text">J Mayita Aguayo/V</p><br>
-                    
-
-                      <label class="switch">
-                        <input type="checkbox">
-                        <div class="slider round"></div>
-                      </label><p class="publicado">Publicado Web</p>
-
-                      
-                       <label class="switch">
-                        <input type="checkbox">
-                        <div class="slider round"></div>
-                      </label><p class="publicado">Publicado Dist.</p>
-
-                       <label class="switch">
-                        <input type="checkbox">
-                        <div class="slider round"></div>
-                      </label><p class="publicado">Destacado</p><br>
-
-                      <a href="#"><span class="opciones"><i class="fas fa-pencil-alt"></i></span></a>
-                      <a href="#"><span class="opciones"><i class="fas fa-trash-alt"></i></span></a>
-                    </div>
-                  </div>
+              <div class="agregar">
+                <div class="row no-gutters">    
+                               
+                     <a class="suma" href="#"><i class="fas fa-plus"></i><p>Nuevo Producto</p></a><br>
+                   
                 </div>
               </div>
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -176,7 +150,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -210,7 +184,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -244,7 +218,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -278,7 +252,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -311,7 +285,7 @@
               </div>
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                  <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto1.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -345,7 +319,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                 <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto3.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">
@@ -379,7 +353,7 @@
 
               <div class="card mb-3">
                 <div class="row no-gutters">
-                  <div class="col-md-5">
+                 <div class="col-md-5 contenedor-img ejemplo-1">
                     <img src="/img/imagenes/producto2.jpg" class="card-img" alt="...">
                   </div>
                   <div class="col-md-7">

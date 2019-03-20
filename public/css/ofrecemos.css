@@ -1,23 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
-.tamaño{
+
+
+/*.tamaño{
 	width: 200px;
 	height: 400px;
-}
-.contenedor-img {
+}*/
+/*.contenedor-img {
 background:#000;
 cursor: default;
 float: left;
 height:100%;
 overflow: hidden;
-
-/*padding:0px;	*/
 position: relative;
 text-align: center;
 width: 100%;
 
-}
-.contenedor-img .mascara,.contenedor-img .contenido {
+}*/
+/*.contenedor-img .mascara,.contenedor-img .contenido {
 width: 100%;
 height: 100%;
 position: absolute;	
@@ -30,9 +30,10 @@ left: 0
 .contenedor-img img {
 display: block;
 position: relative;
-}
+}*/
 
-/*.contenedor-img h2 {
+/* antesssssssssss
+.contenedor-img h2 {
 text-transform: uppercase;
 color: #fff;
 text-align: center;
@@ -42,71 +43,72 @@ padding: 50px;
 
 background: rgba(0, 0, 0,0.9);
 margin: 50px 0 0 0
-}*/
-.contenedor-img p {
+}
+antesssssssssss*/
+/*.contenedor-img p {*/
 /*padding: 100px 20px 10px;*/
-color:#FFF;
+/*color:#FFF;
 font-family: 'Ubuntu Condensed', sans-serif;
 font-size: 13.5px;
 margin: 20% 10%;
 position: relative;
 text-align: center
-}
-.contenedor-img a.link {
+}*/
+/*.contenedor-img a.link {
 display: inline-block;
 text-decoration: none;
 margin-top: 0px;
 padding: 7px 50px ;
 /*background:#222;*/
-color:#fff;
+/*color:#fff;
 text-transform: uppercase;
 /*box-shadow: 0 0 1px #000*/
-}
-.contenedor-img a.link:hover {
+/*}*/
+/*.contenedor-img a.link:hover {
 box-shadow: 0 0 5px #000
-}
+}*/
 .ejemplo-1 img {
-transition: all 0.2s linear;
-}
+transition: all 0.3s linear;
+}/*
 .ejemplo-1 .mascara {
 opacity: 0;
 background-color: rgba(193,66,66,.5);
 transition: all 0.3s ease-in-out;
 padding-bottom:5px;
-}
-.ejemplo-1 h2 {	
+}*/
+/*.ejemplo-1 h2 {	
 transform: translateX(-200px);/*Desplazamos a la izquierda*/
-opacity: 0;
+/*opacity: 0;
 transition: all 0.7s ease-in-out;
-}
-.ejemplo-1 p {
+}*/
+/*.ejemplo-1 p {
 transform: translateY(-200px);/*Desplazamos a la derecha*/
-opacity: 0;
+/*opacity: 0;*/
 /*transition: all 0.4s linear;*/
-
-transition: all 0.4s ease-in-out;
-}
-.ejemplo-1 a.link{
+/*transition: all 0.4s ease-in-out;
+}*/
+/*.ejemplo-1 a.link{
 opacity: 0;
 transition: all 0.4s ease-in-out;
 transform: translateY(100px)/*Desplazamos para abajo*/
-}
+/*}*/
 .ejemplo-1:hover img {
 transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
 }
-.ejemplo-1:hover .mascara {
+/*.ejemplo-1:hover .mascara {
 opacity: 1;
-}
-.ejemplo-1:hover h2,
+}*/
+
+/*.ejemplo-1:hover h2,
 .ejemplo-1:hover p,
 .ejemplo-1:hover a.link {
 opacity: 1;
 transform: translateX(0px);/*Regresamos a las posiciones originales*/
-}
-.ejemplo-1:hover p {
+/*}*/
+/*.ejemplo-1:hover p {
 transition-delay: 0.1s;
-}
-.ejemplo-1:hover a.link {
+}*/
+/*.ejemplo-1:hover a.link {
 transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
-transform: translateY(0px);
-}
+/*transform: translateY(0px);
+}*/
