@@ -168,9 +168,9 @@ nav{
     
     color: #F9AA0D !important;
     font-size: 30px;
-    padding-left: 34%;
+    padding-left: 30%;
     padding-right: 20%;
-    padding-top:5%;
+    padding-top:3%;
     text-align: center;
 
 }
@@ -193,8 +193,13 @@ position: relative;
 text-align: center;
 width: 100%;
 
-
 }
+
+.colorlinea{
+  background-color: #d1d1d1;
+  height: 2px;
+}
+
 
 /* Formateamos el label que servirá de contenedor */
 .switch {
@@ -376,7 +381,9 @@ nav{
     text-align: center;
     
     }
-
+#navbar2{
+  margin-top: 100px;
+}
 
 /*drop menu*/
 .drop{
@@ -591,7 +598,10 @@ text-align: center;
 width: 100%;
 }
 
-
+.colorlinea{
+  background-color: #d1d1d1;
+  height: 2px;
+}
 
 /* Formateamos el label que servirá de contenedor */
 .switch {

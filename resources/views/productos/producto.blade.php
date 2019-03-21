@@ -79,14 +79,11 @@
                           </div>       
                         </div>
                     </div>
-
-
-
-
                   </ul>
-                </div>
-        
-      </div>
+                 
+                    <br>      
+             </div>    
+       </div>
     </nav>
 
 

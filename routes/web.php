@@ -15,7 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+/*PRODUCTOS*/
 Route::get('producto', function () {
-    return view('admin/producto');
+    return view('productos/producto');
 });
+
+/*FIN PRODUCTOS*/
+
+/*EMPRESA*/
+Route::get('empresa', function () {
+    return view('empresa/empresa');
+});
+/*FIN EMPRESA*/
