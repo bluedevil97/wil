@@ -91,120 +91,145 @@
   <!-- Product -->
     <div class="product">
       <div class="catalogo">       
-        <!--  <h4 class="text-left text-dark">/Inicio</h4>      -->    
-          <div class="row">
-                  
-           <div class="col-lg-6">
-            <i class="fab fa-dropbox" id="icono"></i>Datos de la Empresa
+          <div class="row">         
+           <div class="col-lg-6 mt-3">
+            <span class="iconotittulo"><i class="fas fa-building" id="icono"></i></i>&nbsp;<span class="iconotittuloletra">Datos de la Empresa</span></span>
             <hr class="colorlinea" align="left" noshade="noshade" width="100%" />
              <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
+              <div class="row empresatext">
+                  <div class="col-md-6">
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="inputEmail4" >Nombre de Empresa</label>
+                        <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <label for="inputPassword4">Razón Social</label>
+                        <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Eslogan Principal</label>
+                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Eslogan Secundario</label>
+                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Representante Legal</label>
+                        <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                    </div>
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </form>
-           </div>    
 
 
+                  <div class="col-md-6">
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="inputEmail4">Email</label><br>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Logo Color</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Logo Blanco</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">Icono</label>
+                          </div>                          
+                        </div>
+                         <div class="form-group col-md-12">
+                          <label for="inputState">País</label>
+                          <select id="inputState" class="form-control empresatext">
+                            <option selected >Selecciona tu País</option>
+                            <option>Perú</option>
+                            <option>Chile</option>
+                            <option>Argentina</option>
+                          </select>
+                        </div>
 
+                        <div class="form-group col-md-12">
+                          <label for="inputState">Región</label>
+                          <select id="inputState" class="form-control empresatext">
+                            <option selected>Selecciona tu Región</option>
+                            <option>Tacna</option>
+                            <option>Puno</option>
+                            <option>Lima</option>
+                          </select>
+                        </div>
 
-           <div class="col-lg-6">
-            <i class="fab fa-dropbox" id="icono"></i>Contacto de la Empresa
-            <hr class="colorlinea" align="left" noshade="noshade" size="2" width="100%" />
-
-             <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                       
+                      </div>
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+               </div>
               </form>
            </div>   
+
+
+           <div class="col-lg-6 mt-3">
+            <span class="iconotittulo"><i class="fas fa-building" id="icono"></i></i>&nbsp;<span class="iconotittuloletra">Contacto de la Empresa</span></span>
+            <hr class="colorlinea" align="left" noshade="noshade" width="100%" />
+             <form>
+
+              <div class="row empresatext">
+                  <div class="col-md-6">
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="inputEmail4">Correos Electronicos</label>
+                        <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <label for="inputPassword4">Whatsapp</label>
+                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Twitter</label>
+                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Googel Plus</label>
+                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       
+                    </div>
+                  </div>
+
+
+                   <div class="col-md-6">
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="inputEmail4">Celular</label>
+                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <label for="inputPassword4">Teléfono</label>
+                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Facebook</label>
+                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       <div class="form-group col-md-12">
+                        <label for="inputPassword4">Linkedin</label>
+                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                      </div>
+                       
+                    </div>
+                  </div>
+              </div>
+              </form>
+           </div>  
+
+
+
+             
           
             </div>           
         </div>
       </div>
-    </div>
-  
 
 
 

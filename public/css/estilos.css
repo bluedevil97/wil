@@ -66,7 +66,7 @@ nav{
 .dropdown-item:hover{
     color: white !important;
     font-weight: bold;
-    background: #F9AA0D;
+    background:#F09300;
 
 }
 .iconos2{
@@ -85,7 +85,7 @@ nav{
     text-align: left;
    /* padding-top: 10px;
     padding-bottom:10px; */
-    color: #F9AA0D !important;
+    color: #EFCB4B !important;
     /*padding-right:-50px; */
    /* padding-left:20px;
     margin-right:  10px;*/
@@ -99,7 +99,7 @@ nav{
    /* margin-top: -8px;
     margin-bottom: -8px;   */ 
     color:#ffffff !important;
-    background: #F9AA0D;
+    background: #F09300;
 }
 
  .letramenu{
@@ -109,7 +109,12 @@ nav{
     margin-top: -25px;
     margin-right: 10px;
     font-family: Signika,sans-serif;
+    color: #5B5B5F;
 }
+.letramenu:hover{
+  color: white;
+}
+
 
 .product{
     
@@ -132,9 +137,9 @@ nav{
     color: green;
 }
 .opciones{
-    color: #F9AA0D;
-    border-right: 1px  solid #F9AA0D;
-    border-left: 1px  solid #F9AA0D;
+    color: #F09300;
+    border-right: 1px  solid #F09300;
+    border-left: 1px  solid #F09300;
     margin-left: 5px;
     font-size: 30px;
     padding-left: 8px;
@@ -147,13 +152,13 @@ nav{
 }
 
 .card-text{
-    color: #F9AA0D;
+    color: #F09300;
     font-size: 20px;
     font-weight: bold;
 }
 
 .agregar{
-    border:5px dashed #F9AA0D !important;
+    border:5px dashed #F09300 !important;
     /*background-color: blue;*/
     width: 480px;
     margin-left: 0px;
@@ -166,7 +171,7 @@ nav{
 }
 .suma{
     
-    color: #F9AA0D !important;
+    color: #F09300 !important;
     font-size: 30px;
     padding-left: 30%;
     padding-right: 20%;
@@ -278,7 +283,26 @@ input:checked + .slider:before {
 }
 */
 
+/*INICIO EMPRESA*/
+.iconotittulo{
+  font-size: 25px;
+  color: #F09300;
+  font-weight: bold;
 
+}
+.iconotittuloletra{
+  font-size: 25px;
+  color: #5B5B5F;
+  font-weight: bold;
+
+}
+.empresatext{
+  font-weight: bold;
+   color: #5B5B5F !important;
+}
+/*F
+/*FIN EMPRESA*/
+}
 
 .pagination{
     margin-top: 30px;
@@ -366,7 +390,7 @@ nav{
    /* margin-right:-10px; 
     margin-left:-10px;*/
     width: 125px;
-   color: #F9AA0D !important;
+   color: #EFCB4B !important;
    border:1px solid #E1DEDD;
    height: 100%;
    margin-right:  0px;
@@ -377,9 +401,8 @@ nav{
 .nav-link:hover{
     text-transform: uppercase; 
     color:#ffffff !important;
-    background: #F9AA0D;
-    text-align: center;
-    
+    background: #F09300;
+    text-align: center;    
     }
 #navbar2{
   margin-top: 100px;
@@ -395,7 +418,7 @@ nav{
    /* margin-right:-10px; 
     margin-left:-10px;*/
     width: 120px;
-    color: #F9AA0D !important;
+    color: #F09300 !important;
     font-size: 30px;
     padding-top: -10px;
     padding-bottom: -25px;
@@ -404,7 +427,7 @@ nav{
 
 .drop:hover{
     
-    background: #F9AA0D;
+    background: #F09300;
     text-align: center;
     text-decoration: none;
     
@@ -447,7 +470,7 @@ nav{
 .dropdown-item:hover{
     color: white !important;
     font-weight: bold;
-    background: #F9AA0D;
+    background: #F09300;
 
 }
 /*fin drop menu*/
@@ -473,6 +496,10 @@ nav{
     font-weight: bold;
     font-family: Signika,sans-serif;
     margin-right: 0;
+    color: #5B5B5F;
+}
+.letramenu:hover{
+  color: white;
 }
 
 
@@ -511,7 +538,7 @@ nav{
 }
 
 .agregar{
-    border:5px dashed #F9AA0D !important;
+    border:5px dashed #F09300 !important;
    /* background-color: blue;*/
     width: 460px;
     margin-left: 20px;
@@ -525,7 +552,7 @@ nav{
 
 .suma{
     
-    color: #F9AA0D !important;
+    color: #F09300 !important;
     font-size: 80px;
     padding-left: 34%;
     padding-right: 20%;
@@ -572,8 +599,8 @@ nav{
 
 .opciones{
     color: #F9AA0D;
-    border-right: 1px  solid #F9AA0D;
-    border-left: 1px  solid #F9AA0D;
+    border-right: 1px  solid #F09300;
+    border-left: 1px  solid #F09300;
     margin-left: 5px;
     font-size: 30px;
     padding-left: 8px;
@@ -665,4 +692,34 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /*fin producto*/
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO EMPRESA*/
+.iconotittulo{
+  font-size: 30px;
+  color: #F09300;
+  font-weight: bold;
+
+}
+.iconotittuloletra{
+  font-size: 30px;
+  color: #5B5B5F;
+  font-weight: bold;
+
+}
+
+.empresatext{
+  font-weight: bold;
+   color: #5B5B5F !important;
+}
+/*FIN EMPRESA*/
 }
