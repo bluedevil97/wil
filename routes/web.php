@@ -26,4 +26,7 @@ Route::get('producto', function () {
 Route::get('empresa', function () {
     return view('empresa/empresa');
 });
+Route::get('usuarios', function () {
+    return view('empresa/usuarios');
+});
 /*FIN EMPRESA*/

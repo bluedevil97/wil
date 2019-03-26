@@ -30,7 +30,7 @@
 
 
   </head>
-  <body>
+  <body >
     
     <title>Web landing - Practica</title>
   </head>
@@ -82,7 +82,8 @@
                   </ul>
                  
                     <br>      
-             </div>    
+                </div> 
+
        </div>
     </nav>
 
@@ -91,12 +92,12 @@
   <!-- Product -->
     <div class="product">
       <div class="catalogo">       
-          <div class="row">         
+        <div class="row">    
+          
            <div class="col-lg-6 mt-3">
             <span class="iconotittulo"><i class="fas fa-building" id="icono"></i></i>&nbsp;<span class="iconotittuloletra">Datos de la Empresa</span></span>
             <hr class="colorlinea" align="left" noshade="noshade" width="100%" />
              <form>
-
               <div class="row empresatext">
                   <div class="col-md-6">
                     <div class="form-row">
@@ -122,8 +123,6 @@
                       </div>
                     </div>
                   </div>
-
-
                   <div class="col-md-6">
                       <div class="form-row">
                         <div class="form-group col-md-12">
@@ -140,6 +139,9 @@
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
                             <label class="form-check-label" for="inlineRadio3">Icono</label>
                           </div>                          
+                        </div>
+                        <div class="verlogo" style="background: #e5e3e3; width: 100%; height: 200px; border-radius: 20px; margin-left: 25px; margin-right: 25px;">
+                          
                         </div>
                          <div class="form-group col-md-12">
                           <label for="inputState">País</label>
@@ -164,6 +166,9 @@
                        
                       </div>
                   </div>
+                  <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                   
+                  </div>
                </div>
               </form>
            </div>   
@@ -173,40 +178,37 @@
             <span class="iconotittulo"><i class="fas fa-building" id="icono"></i></i>&nbsp;<span class="iconotittuloletra">Contacto de la Empresa</span></span>
             <hr class="colorlinea" align="left" noshade="noshade" width="100%" />
              <form>
-
               <div class="row empresatext">
                   <div class="col-md-6">
                     <div class="form-row">
                       <div class="form-group col-md-12">
                         <label for="inputEmail4">Correos Electronicos</label>
-                        <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                        <input type="text" class="form-control empresatext bg" id="inputEmail4" placeholder="Email" >
                       </div>
                       <div class="form-group col-md-12">
                         <label for="inputPassword4">Whatsapp</label>
-                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                         <input type="text" class="form-control empresatext bg" id="inputEmail4" placeholder="Email">
                       </div>
                        <div class="form-group col-md-12">
                         <label for="inputPassword4">Twitter</label>
-                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                          <input type="text" class="form-control empresatext " id="inputEmail4" placeholder="Email">
                       </div>
                        <div class="form-group col-md-12">
                         <label for="inputPassword4">Googel Plus</label>
-                          <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                          <input type="text" class="form-control empresatext " id="inputEmail4" placeholder="Email">
                       </div>
                        
                     </div>
                   </div>
-
-
                    <div class="col-md-6">
                     <div class="form-row">
                       <div class="form-group col-md-12">
                         <label for="inputEmail4">Celular</label>
-                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                         <input type="text" class="form-control empresatext bg" id="inputEmail4" placeholder="Email">
                       </div>
                       <div class="form-group col-md-12">
                         <label for="inputPassword4">Teléfono</label>
-                         <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
+                         <input type="text" class="form-control empresatext bg" id="inputEmail4" placeholder="Email">
                       </div>
                        <div class="form-group col-md-12">
                         <label for="inputPassword4">Facebook</label>
@@ -215,21 +217,17 @@
                        <div class="form-group col-md-12">
                         <label for="inputPassword4">Linkedin</label>
                           <input type="text" class="form-control empresatext" id="inputEmail4" placeholder="Email">
-                      </div>
-                       
+                      </div>                      
                     </div>
                   </div>
               </div>
               </form>
            </div>  
 
-
-
-             
-          
-            </div>           
+          </div>   
+          <center><button type="button" class="btn btn-lg">GUARDAR CAMBIOS</button></center>         
         </div>
-      </div>
+    </div>
 
 
 
