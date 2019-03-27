@@ -1,0 +1,105 @@
+.product{
+    
+    padding-top: 130px;  
+    padding-bottom: 30px;
+}
+.catalogo{
+    background: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+/*inicio ususrio blade*/
+.buscar-usuario{
+ /* margin-top: -5px;
+  margin-left: 37%;*/
+}
+.form-inline .btn {
+  height: 60px !important;
+  /*width: 80%;*/
+  /*margin-top: 5px;*/
+}
+.busuario{
+  height: 60px !important;
+  width: 80%;
+}
+
+
+#buscar{
+  background: #F09300;
+  height: 50px;
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family:Signika:sans-serif;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+}
+  
+
+/*fin usuario blade*/
+/*FIN EMPRESA*/
+
+@media (min-width: 992px) { 
+
+.catalogo{
+    background: white;
+   /*margin-left: 100px;
+    margin-right: 100px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    /*padding-left: -100px;
+    padding-right: -100px;*/
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/*inicio ususrio blade*/
+.buscar-usuario{
+  margin-top: -4.2%;
+  margin-left: 37%;
+}
+.form-inline .btn {
+  height: 60px !important;
+  margin-top: -10px;
+  /*idth: 5%;*/
+
+}
+.busuario{
+  height: 60px !important;
+  margin-top: -10px;
+
+}
+
+#buscar{
+  background: #F09300;
+  height: 60px;
+  width: 15%;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family:Signika:sans-serif;
+  border-radius: 10px;
+  margin-top: -15px;
+  margin-left: 10px;margin-right: 10px;
+}
+
+.colorlinea{
+  background-color: #d1d1d1;
+  height: 2px;
+}
+/*fin usuario blade*/
+}

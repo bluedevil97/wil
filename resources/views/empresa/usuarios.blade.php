@@ -23,10 +23,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="/css/ofrecemos.css">
-      <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/empresa/empresa_empresa.css">
+    <link rel="stylesheet" type="text/css" href="/css/empresa/empresa_usuario.css">
+
 
      <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> 
-    <title>Web landing - Practica</title>
+     <title>Web landing - Practica</title>
 
 
   </head>
@@ -101,7 +104,7 @@
 
             <div class="buscar-usuario">
               <form class="form-inline">
-                <input class="form-control" type="search" placeholder="Buscar Usuario" aria-label="Search">
+                <input class="form-control busuario" type="search" placeholder="Buscar Usuario" aria-label="Search">
                 <button class="btn" type="submit"><i class="fas fa-search"></i></button>
               </form>
             </div>
@@ -109,8 +112,7 @@
             <hr class="colorlinea" align="left" noshade="noshade" width="100%" />
              
            </div>   
-          </div>   
-          <center><button type="button" class="btn btn-lg">GUARDAR CAMBIOS</button></center>         
+          </div>       
         </div>
     </div>
 

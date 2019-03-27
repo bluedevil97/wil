@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="/css/ofrecemos.css">
-      <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/producto/producto_producto.css">
 
      <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> 
     <title>Web landing - Practica</title>
@@ -52,6 +53,7 @@
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item iconos">
                     <a class="nav-link" href="#"><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Productos</p></a></li>
+                    
                     <li class="nav-item iconos">
                     <a class="nav-link" href="#"><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Inventarios</p></a></li>
                     <li class="nav-item iconos">
@@ -67,7 +69,7 @@
                     <div class="drop">
                         <div class="dropdown">
                           <button class="btn btn-default iconos2" type="button" data-toggle="dropdown">
-                          <i class="fa fa-user "></i>  <!--<p class="letramenu">USUARIO</p>-->
+                          <i class="fa fa-user"></i>  <!--<p class="letramenu">USUARIO</p>-->
                           </button>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <center><b>Áreas Comerciales</b></center><br>
@@ -81,28 +83,27 @@
                     </div>
                   </ul>
                  
-                    <br>      
+                 <br>      
              </div>    
        </div>
+     </div>
     </nav>
 
 
+
+    <div class="container">
+      <div class="row">
+        <div class="submenu" style="background: red; width: 500px;height: 500px;border-radius: 20px;margin-top: 150px;">
+          asddddddddddddasdasdasdsad
+        </div>
+      </div>
+     </div>
 
   <!-- Product -->
     <div class="product">
       <div class="catalogo">       
           <h4 class="text-left text-dark">/Inicio</h4>          
           <div class="row">
-            
-                <!--<div class="card-deck">
-                  <div class="card">
-                     <div class="contenedor-img ejemplo-1">  
-                             <img class="card-img-top " src="img/imagenes/img1.jpg" alt="Card image cap">   
-                    </div>         
-                </div>
-                <div style="background-color: green;" class="datos"><p>hola</p></div>
-              </div>-->
-
               <div class="agregar">
                 <div class="row no-gutters">    
                                
@@ -119,14 +120,12 @@
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">086JMS4</h5>
-                      <p class="card-text">J Mayita Aguayo/V</p><br>
-                    
+                      <p class="card-text">J Mayita Aguayo/V</p><br>                   
 
                       <label class="switch">
                         <input type="checkbox">
                         <div class="slider round"></div>
                       </label><p class="publicado">Publicado Web</p>
-
                       
                        <label class="switch">
                         <input type="checkbox">
@@ -153,14 +152,12 @@
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">086JMS4</h5>
-                      <p class="card-text">J Mayita Aguayo/V</p><br>
-                    
+                      <p class="card-text">J Mayita Aguayo/V</p><br>                 
 
                       <label class="switch">
                         <input type="checkbox">
                         <div class="slider round"></div>
                       </label><p class="publicado">Publicado Web</p>
-
                       
                        <label class="switch">
                         <input type="checkbox">
@@ -380,23 +377,12 @@
                     </div>
                   </div>
                 </div>
-              </div>
-
-              
-
-
-
-             
-          
+              </div>          
             </div>           
         </div>
       </div>
     </div>
   
-
-
-
-
 
 
 
