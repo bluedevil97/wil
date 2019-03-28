@@ -51,22 +51,125 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item iconos">
-                    <a class="nav-link" href="#"><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Productos</p></a></li>
+
+
+                   
+
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
                     
-                    <li class="nav-item iconos">
-                    <a class="nav-link" href="#"><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Inventarios</p></a></li>
-                    <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-cogs" id="icono"></i><br><p class="letramenu">Operaciones</p></a></li>
-                    <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-building" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
-                    <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-laptop" id="icono"></i><br><p class="letramenu">Ver tienda</p></a></li>
-                    <li class="nav-item iconos">
-                    <a class="nav-link " href="#"><i class="fas fa-cart-plus" id="icono"></i><br><p class="letramenu">Pos venta</p></a></li>
+                    
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
+
                     
 
-                    <div class="drop">
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-cogs" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
+
+
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-building" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
+
+
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-laptop" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
+
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-cart-plus" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <ul>
+                              <li><a href="#">Elemento 1</a></li>
+                              <li><a href="#">Elemento 2</a></li>
+                              <li><a href="#">Elemento 3</a></li>
+                              <li><a href="#">Elemento 4</a></li>
+                              </ul>
+                            </div>            
+                        </div> 
+                      </div>
+                    </div>
+
+                    
+                    <div class="drop usuario">
                         <div class="dropdown">
                           <button class="btn btn-default iconos2" type="button" data-toggle="dropdown">
                           <i class="fa fa-user"></i>  <!--<p class="letramenu">USUARIO</p>-->
@@ -81,23 +184,13 @@
                           </div>       
                         </div>
                     </div>
-                  </ul>
-                 
-                 <br>      
-             </div>    
-       </div>
-     </div>
-    </nav>
 
-
-
-    <div class="container">
-      <div class="row">
-        <div class="submenu" style="background: red; width: 500px;height: 500px;border-radius: 20px;margin-top: 150px;">
-          asddddddddddddasdasdasdsad
+                </ul>                 
+              <br>      
+           </div>    
         </div>
       </div>
-     </div>
+    </nav>
 
   <!-- Product -->
     <div class="product">

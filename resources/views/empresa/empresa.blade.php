@@ -28,9 +28,7 @@
     
       
      <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> 
-    <title>Web landing - Practica</title>
-
-  
+    <title>Web landing - Practica</title>  
    </head>
   <body >
     

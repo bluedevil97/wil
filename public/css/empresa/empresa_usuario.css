@@ -1,14 +1,3 @@
-.product{
-    
-    padding-top: 130px;  
-    padding-bottom: 30px;
-}
-.catalogo{
-    background: #fff;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 50px;
-}
 
 /*inicio ususrio blade*/
 .buscar-usuario{
@@ -48,24 +37,6 @@
 /*FIN EMPRESA*/
 
 @media (min-width: 992px) { 
-
-.catalogo{
-    background: white;
-   /*margin-left: 100px;
-    margin-right: 100px;*/
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 50px;
-    /*padding-left: -100px;
-    padding-right: -100px;*/
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
 /*inicio ususrio blade*/
 .buscar-usuario{
   margin-top: -4.2%;

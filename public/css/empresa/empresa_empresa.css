@@ -1,16 +1,5 @@
 /*INICIO EMPRESA*/
 
-.product{
-    
-    padding-top: 130px;  
-    padding-bottom: 30px;
-}
-.catalogo{
-    background: #fff;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 50px;
-}
 /*empresa blade*/
 .iconotittulo{
   font-size: 25px;
@@ -53,22 +42,6 @@ background-color: #e5e3e3 !important;}
 @media (min-width: 992px) { 
 
 /*INICIO EMPRESA*/
-.catalogo{
-    background: white;
-   /*margin-left: 100px;
-    margin-right: 100px;*/
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 50px;
-    /*padding-left: -100px;
-    padding-right: -100px;*/
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-
-    margin-right: 100px;
-    margin-left: 100px;
-}
 
 /*empresa blade*/
 .iconotittulo{
