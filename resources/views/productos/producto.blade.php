@@ -58,7 +58,46 @@
                     <div class="drop-nav">
                       <div class="dropdown-nav">
                         <li class="nav-item iconos" data-toggle="dropdown">
-                        <a class="nav-link " href="#" ><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+                        <a class="nav-link " href="#" ><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Productos</p></a></li>
+
+                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown"> 
+
+                            <nav id="menu_gral">
+                              <ul>
+                                <li><a href="#" class="btn-disabled">Opción 1</a>
+                                    <ul>
+                                      <li><a href="#">Opción 1.1</a></li>
+                                      <li><a href="#">Opción 1.2</a></li>
+                                      <li><a href="#">Opción 1.3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Opción 2</a>
+                                    <ul>
+                                      <li><a href="#">Opción 2.1</a></li>
+                                      <li><a href="#">Opción 2.2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Opción 3</a></li>
+                                <li><a href="#">Opción 4</a>
+                                    <ul>
+                                      <li><a href="#">Opción 4.1</a></li>
+                                      <li><a href="#">Opción 4.2</a></li>
+                                      <li><a href="#">Opción 4.3</a></li>
+                                    </ul>
+                                </li>
+                              </ul>
+                            </nav>     
+
+                        </div> 
+
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="drop-nav">
+                      <div class="dropdown-nav">
+                        <li class="nav-item iconos" data-toggle="dropdown">
+                        <a class="nav-link " href="#" ><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Inventario</p></a></li>
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
@@ -72,32 +111,13 @@
                         </div> 
                       </div>
                     </div>
-                    
-                    
-                    <div class="drop-nav">
-                      <div class="dropdown-nav">
-                        <li class="nav-item iconos" data-toggle="dropdown">
-                        <a class="nav-link " href="#" ><i class="fas fa-boxes" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
-
-                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
-                            <div id="navegador">
-                              <ul>
-                              <li><a href="#">Elemento 1</a></li>
-                              <li><a href="#">Elemento 2</a></li>
-                              <li><a href="#">Elemento 3</a></li>
-                              <li><a href="#">Elemento 4</a></li>
-                              </ul>
-                            </div>            
-                        </div> 
-                      </div>
-                    </div>
 
                     
 
                     <div class="drop-nav">
                       <div class="dropdown-nav">
                         <li class="nav-item iconos" data-toggle="dropdown">
-                        <a class="nav-link " href="#" ><i class="fas fa-cogs" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+                        <a class="nav-link " href="#" ><i class="fas fa-cogs" id="icono"></i><br><p class="letramenu">Operaciones</p></a></li>
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
@@ -132,10 +152,10 @@
                     </div>
 
 
-                    <div class="drop-nav">
+                    <div class="drop-nav" id="iconoprincipal">
                       <div class="dropdown-nav">
                         <li class="nav-item iconos" data-toggle="dropdown">
-                        <a class="nav-link " href="#" ><i class="fas fa-laptop" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+                        <a class="nav-link " href="#" ><i class="fas fa-laptop" id="icono"></i><br><p class="letramenu">Ver Tienda</p></a></li>
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
@@ -153,7 +173,7 @@
                     <div class="drop-nav">
                       <div class="dropdown-nav">
                         <li class="nav-item iconos" data-toggle="dropdown">
-                        <a class="nav-link " href="#" ><i class="fas fa-cart-plus" id="icono"></i><br><p class="letramenu">Empresa</p></a></li>
+                        <a class="nav-link " href="#" ><i class="fas fa-cart-plus" id="icono"></i><br><p class="letramenu">Post Venta</p></a></li>
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
@@ -161,7 +181,15 @@
                               <li><a href="#">Elemento 1</a></li>
                               <li><a href="#">Elemento 2</a></li>
                               <li><a href="#">Elemento 3</a></li>
-                              <li><a href="#">Elemento 4</a></li>
+                              <li>
+                                 
+                                <form class="form-inline">
+                                  <input class="form-control busuario" type="search" placeholder="Buscar Usuario" aria-label="Search">
+                                  <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+           
+
+                              </li>
                               </ul>
                             </div>            
                         </div> 
