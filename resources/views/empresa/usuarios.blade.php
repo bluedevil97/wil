@@ -22,7 +22,7 @@
      <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/css/ofrecemos.css">
+    <link rel="stylesheet" type="text/css" h ref="/css/ofrecemos.css">
     <link rel="stylesheet" type="text/css" href="/css/estilos.css">
     <link rel="stylesheet" type="text/css" href="/css/empresa/empresa_empresa.css">
     <link rel="stylesheet" type="text/css" href="/css/empresa/empresa_usuario.css">

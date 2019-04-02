@@ -444,9 +444,7 @@ nav{
     font-family: Signika,sans-serif;
     width: 100% !important;
     margin-left: 0px;
-    height: 30%;
-
-
+    height: 43%;
     
 }
 
@@ -463,53 +461,78 @@ nav{
 
 
 #navegador{
-     margin-top: 15px;
-     margin-left: -33px;
+     margin-top: 0px;
+     margin-left:4%;
+     margin-bottom: 0px;
+
 
 }
 #navegador ul{
   /* list-style-type: none;*/
    display: block !important;
-  
+   height: 30%;
 
 }
 
 #navegador li{
    display: inline;
    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+
   
 }
 
 #navegador li a {
-     margin-left: -5px;
-   margin-right: 0px;
-  padding-top: 12px;
-  padding-bottom: 11px;
-  padding-right: 5px;
-  padding-left: 5px;
-   color: #666;
-   /*background-color: #eeeeee;*/
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-   font-size:25px;
-   text-decoration: none;
-   color: #5B5B5F;
-   font-family: Signika,sans-serif;
-   font-weight: bold;
-   text-align: center;
    
+    margin-top: 0px;
+    margin-bottom: 0px;
+   /* padding-top: 1%;
+    padding-bottom:1%;*/
+    padding-top: 17px;
+   padding-bottom: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 1px;
+    color: #666;
+    /*background-color: pink;*/
+    /*border-left: 1px solid #ccc;*/
+    border-right: 1px solid #ccc;
+    font-size:15px;
+    text-decoration: none;
+    color: #5B5B5F;
+    font-family: Signika,sans-serif;
+    font-weight: bold;
+    text-align: center;
+   /* height: 30%;*/
 
 }
 
 #navegador li a:hover{
-   /*background-color: #333333;*/
+  /* background-color: #FCF4D9;*/
    color: #F09300;
-   height: 100%;
+   /*height: 100%;*/
+   
+   padding-right: 20px;
+   padding-top: 17px;
+   padding-bottom: 17px;
+
+   
 }
+
+
+.categoria:hover{
+   background-color: #FCF4D9;
+   color: #F09300;
+   /*height: 100%;*/
+   
+   padding-right: 20px;
+   padding-top: 17px;
+   padding-bottom: 17px;
+
+}
+
 /*fin drop menu nav*/
-
-
-
 
 
 

@@ -25,6 +25,8 @@
     <link rel="stylesheet" type="text/css" href="/css/ofrecemos.css">
     <link rel="stylesheet" type="text/css" href="/css/estilos.css">
     <link rel="stylesheet" type="text/css" href="/css/producto/producto_producto.css">
+    <link rel="stylesheet" type="text/css" href="/css/empresa/empresa_usuario.css">
+    
 
      <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> 
     <title>Web landing - Practica</title>
@@ -60,25 +62,28 @@
                         <li class="nav-item iconos" data-toggle="dropdown">
                         <a class="nav-link " href="#" ><i class="fab fa-dropbox" id="icono"></i><br><p class="letramenu">Productos</p></a></li>
 
-                         <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown"> 
-
-                            <nav id="menu_gral">
+                       
+                           <!-- <nav id="menu_gral">
                               <ul>
-                                <li><a href="#" class="btn-disabled">Opción 1</a>
+                                <li>
+                                  <a href="#" class="btn-disabled">Opción 1</a>
                                     <ul>
                                       <li><a href="#">Opción 1.1</a></li>
                                       <li><a href="#">Opción 1.2</a></li>
                                       <li><a href="#">Opción 1.3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Opción 2</a>
+                                    </ul>                                
+                                
+
+                                <li>
+                                  <a href="#">Opción 2</a>
                                     <ul>
                                       <li><a href="#">Opción 2.1</a></li>
                                       <li><a href="#">Opción 2.2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Opción 3</a></li>
-                                <li><a href="#">Opción 4</a>
+                                
+                                <li>
+                                  <a href="#">Opción 4</a>
                                     <ul>
                                       <li><a href="#">Opción 4.1</a></li>
                                       <li><a href="#">Opción 4.2</a></li>
@@ -86,9 +91,29 @@
                                     </ul>
                                 </li>
                               </ul>
-                            </nav>     
+                            </nav>     -->
 
-                        </div> 
+                            <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
+                            <div id="navegador">
+                              <form class="form-inline">
+                              <ul>
+                              
+                              <li><a href="#" class="categoria"><i class="fas fa-bars" id="icono"></i>&nbsp;&nbsp;&nbsp;CATEGORIAS</a></li>
+                              <li><a>
+                                                             
+                                  <input class="form-control busuario" type="search" placeholder="Buscar Usuario" aria-label="Search" >
+                                  <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                                
+                              </a>       
+                              </li>
+                               <li><a href="#">CATEGORIAS&nbsp;&nbsp;&nbsp;<i class="fas fa-bars" id="icono"></i></a></li>
+                               <li><a href="#">CATEGORIAS&nbsp;&nbsp;&nbsp;<i class="fas fa-bars" id="icono"></i></a></li>
+                                <li><a href="#"></a></li>
+                              </ul>
+                              </form>
+                            </div>            
+                          </div>  
+
 
                       </div>
                     </div>
@@ -101,14 +126,22 @@
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
+                              <form class="form-inline">
                               <ul>
                               <li><a href="#">Elemento 1</a></li>
                               <li><a href="#">Elemento 2</a></li>
                               <li><a href="#">Elemento 3</a></li>
-                              <li><a href="#">Elemento 4</a></li>
+                              <li><a>
+                                                             
+                                  <input class="form-control busuario" type="search" placeholder="Buscar Usuario" aria-label="Search">
+                                  <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                                
+                              </a>       
+                              </li>
                               </ul>
+                              </form>
                             </div>            
-                        </div> 
+                          </div>  
                       </div>
                     </div>
 
@@ -177,20 +210,22 @@
 
                          <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">  
                             <div id="navegador">
+                              <form class="form-inline">
                               <ul>
                               <li><a href="#">Elemento 1</a></li>
                               <li><a href="#">Elemento 2</a></li>
                               <li><a href="#">Elemento 3</a></li>
-                              <li>
-                                 
-                                <form class="form-inline">
+                              <li><a>
+                             
                                   <input class="form-control busuario" type="search" placeholder="Buscar Usuario" aria-label="Search">
                                   <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                                </form>
-           
-
+                                
+                             </a>
+                              
                               </li>
+                               <li><a href="#">Elemento 3</a></li> <li><a href="#">Elemento 3</a></li>
                               </ul>
+                              </form>
                             </div>            
                         </div> 
                       </div>
